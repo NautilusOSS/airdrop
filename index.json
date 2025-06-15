@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "000",
     "name": "Power $POW Airdrop",
     "description": "POW is the governance token for Pact Protocol, enabling community participation in protocol governance.",
     "eligibility": "Humble & Pact Historic Users",
@@ -11,7 +11,7 @@
     "url": "TBD"
   },
   {
-    "id": "2",
+    "id": "001",
     "name": "Pixel Dust $PXD Airdrop",
     "description": "Pixel Dust is reward token for Nautilus NFT Marketplace historic users.",
     "eligibility": "Nautilus NFT Marketplace Historic Users",
