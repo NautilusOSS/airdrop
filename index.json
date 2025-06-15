@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "name": "Power $POW Airdrop",
+    "description": "POW is the governance token for Pact Protocol, enabling community participation in protocol governance.",
+    "eligibility": "Humble & Pact Historic Users",
+    "image": "https://algorand-wallet-mainnet.b-cdn.net/media/assets-logo-png/2025/05/29/c3c81dde189d4a10978bd14aa337e1d0.png",
+    "start_date": "2025-06-23",
+    "period": "90 days",
+    "status": "pending",
+    "url": "TBD"
+  },
+  {
+    "id": "2",
+    "name": "Pixel Dust $PXD Airdrop",
+    "description": "Pixel Dust is reward token for Nautilus NFT Marketplace historic users.",
+    "eligibility": "Nautilus NFT Marketplace Historic Users",
+    "image": "https://asset-verification.nautilus.sh/icons/419714.png",
+    "start_date": "2025-06-01",
+    "period": "365 days",
+    "status": "active",
+    "url": "https://pxd.nautilus.sh"
+  }
+]
