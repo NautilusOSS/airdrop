@@ -19,6 +19,8 @@
     "start_date": "2025-06-01",
     "period": "365 days",
     "status": "active",
-    "url": "https://pxd.nautilus.sh"
+    "url": "https://pxd.nautilus.sh",
+    "airdrop_address": "NXPRBWKSBICV7P3YDK5CAQVQEJEJ7A7B33QRDBOVQWIOCU2TM4ZWQUFQ5Q",
+    "token_id": "419714"
   }
 ]
