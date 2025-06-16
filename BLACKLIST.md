@@ -42,6 +42,9 @@ Test addresses and development wallets used during system testing.
 - **Reason**: myalgo hack inpacted and hacker addresses
 - **Source**: d13 myalgo hack report
 
+<https://d13.co/myalgo-hack-first-wave-addresses-data/>
+<https://d13.co/myalgo-hack-fifth-wave-addresses-data/>
+
 ### Batch 2 - Exchange Addresses (2025-05-20)
 - **Addresses Added**: 0 (already included in Batch 1)
 - **Reason**: Additional exchange address verification
