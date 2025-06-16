@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial project structure and documentation
 - Support for multiple airdrop campaigns
-- Blocklist functionality for address exclusion
+- Blacklist functionality for address exclusion
 - Comprehensive README with usage instructions
 
 ### Changed
@@ -41,7 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Core System Features**
   - JSON-based configuration system (`index.json`)
-  - Address blocklist functionality (`blocklist.json`)
+  - Address blacklist functionality (`blacklist.json`)
   - Modular data structure for individual airdrops
   - Support for multiple token types and networks
   - Comprehensive documentation and usage guidelines

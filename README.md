@@ -16,6 +16,7 @@ airdrop/
 ├── README.md           # This documentation
 ├── CHANGELOG.md        # Version history and changes
 ├── LICENSE.md          # MIT License
+├── BLACKLIST.md        # Blacklist management and batches
 ├── index.json          # Airdrop configuration and metadata
 ├── blocklist.json      # Addresses excluded from airdrops
 ├── data/               # Airdrop data files
@@ -72,9 +73,9 @@ Individual airdrop data files contain the list of eligible addresses and their a
 }
 ```
 
-## Blocklist
+## Blacklist
 
-The `blocklist.json` file contains addresses that are excluded from all airdrops. This typically includes:
+The `blacklist.json` file contains addresses that are excluded from all airdrops. This typically includes:
 - Exchange addresses
 - Contract addresses
 - Known bot addresses
@@ -93,8 +94,8 @@ The `blocklist.json` file contains addresses that are excluded from all airdrops
    - Modify the `status` field in `index.json`
    - Update `start_date` and other relevant fields as needed
 
-3. **Managing Blocklist**:
-   - Add addresses to `blocklist.json` to exclude them from all airdrops
+3. **Managing Blacklist**:
+   - Add addresses to `blacklist.json` to exclude them from all airdrops
    - Ensure addresses are in the correct Voi Network format
 
 ### For Users
@@ -119,7 +120,7 @@ The `blocklist.json` file contains addresses that are excluded from all airdrops
 ## Security
 
 - All airdrop addresses and token IDs are verified on-chain
-- Blocklist prevents distribution to ineligible addresses
+- Blacklist prevents distribution to ineligible addresses
 - Smart contracts handle the actual token distribution
 - Users must sign transactions to claim tokens
 
