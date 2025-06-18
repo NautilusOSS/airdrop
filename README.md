@@ -18,7 +18,7 @@ airdrop/
 ├── LICENSE.md          # MIT License
 ├── BLACKLIST.md        # Blacklist management and batches
 ├── index.json          # Airdrop configuration and metadata
-├── blocklist.json      # Addresses excluded from airdrops
+├── blacklist.json      # Addresses excluded from airdrops
 ├── data/               # Airdrop data files
 │   ├── 000-pow.json    # Power token airdrop data
 │   ├── 000-pow.png     # Power token logo
@@ -30,18 +30,26 @@ airdrop/
 ## Available Airdrops
 
 ### 1. Power ($POW) Airdrop
-- **Status**: Pending (Starting June 23, 2025)
+- **Status**: Active (Started June 23, 2025)
 - **Duration**: 90 days
 - **Eligibility**: Humble & Pact Historic Users
 - **Description**: POW is the governance token for Pact Protocol, enabling community participation in protocol governance.
-- **Token ID**: TBD
-- **Airdrop Address**: TBD
+- **Networks**: Voi Network, Algorand
+- **Asset IDs**: 
+  - Voi: 0
+  - Algorand: 2994233666
+- **Token IDs**:
+  - Voi: 0
+  - Algorand: 3080081069
+- **Airdrop Address**: SDSKGUS5AEIQATOLCSNC4PUK5GK6G6JRWMKUJY5GQRWMNXUTWURVUIQV3U
+- **Claim URL**: https://powapp.xyz
 
 ### 2. Pixel Dust ($PXD) Airdrop
 - **Status**: Active (Started June 1, 2025)
 - **Duration**: 365 days
 - **Eligibility**: Nautilus NFT Marketplace Historic Users
 - **Description**: Pixel Dust is reward token for Nautilus NFT Marketplace historic users.
+- **Networks**: Voi Network
 - **Token ID**: 419714
 - **Airdrop Address**: NXPRBWKSBICV7P3YDK5CAQVQEJEJ7A7B33QRDBOVQWIOCU2TM4ZWQUFQ5Q
 - **Claim URL**: https://pxd.nautilus.sh
@@ -60,11 +68,26 @@ Each airdrop entry contains:
 - `status`: Current status (pending, active, completed)
 - `url`: Claim URL (if available)
 - `airdrop_address`: Contract address for the airdrop (if available)
-- `token_id`: Token ID on Voi Network (if available)
+- `networks`: Array of supported networks (e.g., ["Voi", "Algorand"])
+- `type`: Airdrop type format ("asset_id_and_token_id" or "token_id_only")
+- `asset_ids`: Object mapping networks to asset IDs (for multi-network airdrops)
+- `token_ids`: Object mapping networks to token IDs (for multi-network airdrops)
+- `token_id`: Single token ID (for single-network airdrops)
 
 ### Airdrop Data Files
 Individual airdrop data files contain the list of eligible addresses and their allocated amounts. These files are typically large JSON files with the following structure:
 
+#### Multi-Network Airdrops (e.g., 000-pow.json)
+```json
+{
+  "Address": "VOI_OR_ALGO_ADDRESS",
+  "Voi": 0.0,
+  "Algo": 46327.13709,
+  "Total": 46327.13709
+}
+```
+
+#### Single-Network Airdrops (e.g., 001-pxd.json)
 ```json
 {
   "address": "VOI_ADDRESS",
@@ -96,7 +119,13 @@ The `blacklist.json` file contains addresses that are excluded from all airdrops
 
 3. **Managing Blacklist**:
    - Add addresses to `blacklist.json` to exclude them from all airdrops
-   - Ensure addresses are in the correct Voi Network format
+   - Ensure addresses are in the correct network format
+
+4. **Multi-Network Airdrops**:
+   - Set `networks` array to include all supported networks
+   - Use `type: "asset_id_and_token_id"` for multi-network airdrops
+   - Provide `asset_ids` and `token_ids` objects mapping networks to their respective IDs
+   - Structure data files with network-specific amount fields
 
 ### For Users
 
@@ -107,15 +136,15 @@ The `blacklist.json` file contains addresses that are excluded from all airdrops
 
 2. **Claim Tokens**:
    - Follow the instructions on the claim page
-   - Ensure you have sufficient VOI for transaction fees
+   - Ensure you have sufficient VOI/ALGO for transaction fees
    - Complete the claim transaction through your wallet
 
 ## Technical Details
 
-- **Network**: Voi Network
+- **Networks**: Voi Network, Algorand
 - **Token Standard**: ARC-200 (Algorand Request for Comments 200)
-- **Blockchain**: Algorand-based L1 blockchain
-- **Wallet Support**: Compatible with all Voi Network wallets
+- **Blockchain**: Algorand-based L1 blockchain (Voi Network), Algorand Mainnet
+- **Wallet Support**: Compatible with all Voi Network and Algorand wallets
 
 ## Security
 
@@ -140,7 +169,7 @@ For detailed information about project changes and version history, see [CHANGEL
 For questions or issues related to airdrops:
 - Check the specific airdrop's claim page
 - Review the eligibility criteria
-- Ensure your wallet is compatible with Voi Network
+- Ensure your wallet is compatible with the required networks
 
 ## License
 

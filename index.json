@@ -7,8 +7,19 @@
     "image": "https://algorand-wallet-mainnet.b-cdn.net/media/assets-logo-png/2025/05/29/c3c81dde189d4a10978bd14aa337e1d0.png",
     "start_date": "2025-06-23",
     "period": "90 days",
-    "status": "pending",
-    "url": "TBD"
+    "status": "active",
+    "url": "https://powapp.xyz",
+    "airdrop_address": "SDSKGUS5AEIQATOLCSNC4PUK5GK6G6JRWMKUJY5GQRWMNXUTWURVUIQV3U",
+    "networks": ["Voi", "Algorand"],
+    "type": "asset_id_and_token_id",
+    "asset_ids": {
+      "Voi": 0,
+      "Algorand": 2994233666
+    },
+    "token_ids": {
+      "Voi": 0,
+      "Algorand": 3080081069
+    }
   },
   {
     "id": "001-pxd",
@@ -21,6 +32,23 @@
     "status": "active",
     "url": "https://pxd.nautilus.sh",
     "airdrop_address": "NXPRBWKSBICV7P3YDK5CAQVQEJEJ7A7B33QRDBOVQWIOCU2TM4ZWQUFQ5Q",
-    "token_id": "419714"
+    "token_id": "419714",
+    "networks": ["Voi"],
+    "type": "token_id_only"
+  },
+  {
+    "id": "002-cds",
+    "name": "Chris Derangement Syndrome $CDS Season 1",
+    "description": "Chris Derangement Syndrome is a meme coin that is airdropped to active Voi users.",
+    "eligibility": "Active Voi Users",
+    "image": "https://asset-verification.nautilus.sh/icons/419879.png",
+    "start_date": "2025-06-17",
+    "period": "120 days",
+    "status": "active",
+    "url": null,
+    "airdrop_address": "FT6YB2ZA7QZZTIZR6Y37T76HSPNMWZ7U73SJWQN3DW2IK6K3ILJEPZ4WSA",
+    "token_id": "419879",
+    "networks": ["Voi"],
+    "type": "token_id_only"
   }
 ]
