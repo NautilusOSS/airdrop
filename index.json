@@ -13,11 +13,11 @@
     "networks": ["Voi", "Algorand"],
     "type": "asset_id_and_token_id",
     "asset_ids": {
-      "Voi": 0,
+      "Voi": 40152679,
       "Algorand": 2994233666
     },
     "token_ids": {
-      "Voi": 0,
+      "Voi": 40153155,
       "Algorand": 3080081069
     }
   },
