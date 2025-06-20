@@ -50,7 +50,7 @@
     "token_id": "419879",
     "networks": ["Voi"],
     "type": "token_id_only"
-  }
+  },
   {
     "id": "003-wop",
     "name": "WOP Airdrop (Testing)",
@@ -70,6 +70,5 @@
     "token_ids": {
       "Algorand": 3082940555
     }
-  },
-
+  }
 ]
