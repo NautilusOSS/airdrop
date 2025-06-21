@@ -59,7 +59,7 @@
     "image": "https://algorand-wallet-mainnet.b-cdn.net/media/assets-logo-png/2025/05/29/c3c81dde189d4a10978bd14aa337e1d0.png",
     "start_date": "2025-06-19",
     "period": "90 days",
-    "status": "active",
+    "status": "inactive",
     "url": "https://powapp.xyz",
     "airdrop_address": "SDSKGUS5AEIQATOLCSNC4PUK5GK6G6JRWMKUJY5GQRWMNXUTWURVUIQV3U",
     "networks": ["Algorand"],
