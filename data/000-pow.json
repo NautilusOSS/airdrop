@@ -3162,12 +3162,6 @@
     "Total": 20220.12992
   },
   {
-    "Address": "DZ4IC6AHG4HSVQVSXO6B4AAGIXTUJOII7KA6K2O7CR4XYUTVKM7YVKQ2HU",
-    "Voi": 0,
-    "Algo": 0,
-    "Total": 0,
-  },
-  {
     "Address": "XF3QRKJVCTBFMJTKEBUXJSHGUW7YXOR5VRMURR6NEDQ54BXAYEI75LT3NA",
     "Voi": 0,
     "Algo": 20193.44412,
@@ -141748,5 +141742,5 @@
     "Voi": 0,
     "Algo": 20218.52416,
     "Total": 20218.52416
-  },
+  }
 ]
