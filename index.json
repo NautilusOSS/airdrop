@@ -50,25 +50,5 @@
     "token_id": "419879",
     "networks": ["Voi"],
     "type": "token_id_only"
-  },
-  {
-    "id": "003-wop",
-    "name": "WOP Airdrop (Testing)",
-    "description": "WOP is the governance token for WOP Protocol, enabling community participation in protocol governance.",
-    "eligibility": "Test Users",
-    "image": "https://algorand-wallet-mainnet.b-cdn.net/media/assets-logo-png/2025/05/29/c3c81dde189d4a10978bd14aa337e1d0.png",
-    "start_date": "2025-06-19",
-    "period": "90 days",
-    "status": "inactive",
-    "url": "https://powapp.xyz",
-    "airdrop_address": "SDSKGUS5AEIQATOLCSNC4PUK5GK6G6JRWMKUJY5GQRWMNXUTWURVUIQV3U",
-    "networks": ["Algorand"],
-    "type": "asset_id_and_token_id",
-    "asset_ids": {
-      "Algorand": 3082936728
-    },
-    "token_ids": {
-      "Algorand": 3082940555
-    }
   }
 ]
